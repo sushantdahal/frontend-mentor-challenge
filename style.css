@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.navbar .image{
+	width: 100%;
+	height: 40rem;
+	/*background-color: red;*/
+	background-image: url('images/header.png');
+	background-size: cover;
+	background-position: center;
+}
+.box-container nav{
+	margin-top: .3rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+ .box-container nav ul{
+	display: flex;
+	list-style: none;
+}
+.box-container nav ul a{
+	margin:0 2rem;
+	color: #fff;
+}
+ .box-container nav ul a:hover{
+	border:.1rem solid red;
+	background: powderblue;
+	border-radius: .2rem;
+}
+.box-container .image .logo{
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+.box-container .middle{
+	display: grid;
+	align-items: center;
+	justify-content: center;
+
+}
+.box-container .middle h2{	
+	width: 100%;
+	padding-top: 7rem;
+	letter-spacing: .2rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2rem;
+	
+}
+.box-container .middle img{
+	padding-top: 2rem;
+	padding-left: 9rem;
+}
+
+
+
+.service-container{
+	display:flex;
+
+	
+}
+.service-container .service{
+	width: 50%;
+	height: 35rem;
+	
+
+}
+.service-container .service h3{
+	letter-spacing: .1rem;
+	font-size: 2rem;
+	padding: 5rem 5rem 2rem 5rem;
+	
+
+}
+.service-container .service p{	
+	font-size: .9rem;
+	line-height: 2rem;
+	color: gray;
+	padding:0 5rem 4rem 5rem;
+
+}
+.service-container .service a{
+	padding-left: 5rem;
+	font-size: 1.5rem;
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+	
+.service-container .image{
+	width: 50%;
+	height: 35rem;
+	background-image: url('images/egg.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.service-container2{
+	display:flex;
+
+	
+}
+.service-container2 .service{
+	width: 50%;
+	height: 35rem;
+	
+
+}
+.service-container2 .service h3{
+	font-size: 1.5rem;
+	padding: 5rem 5rem 2rem 5rem;
+	
+
+}
+.service-container2 .service p{	
+	font-size: .9rem;
+	line-height: 2rem;
+	color: gray;
+	padding:0 5rem 4rem 5rem;
+
+}
+.service-container2 .service a{
+	padding-left: 5rem;
+	font-size: 1.5rem;
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+.service-container2 .image{
+	width: 50%;
+	height: 35rem;
+	background-image: url('images/glass.png');
+	background-position: center;
+	background-size: cover;
+}
+.service-container3{
+
+	display: flex;
+}
+.service-container3 .image1{
+	width: 50%;
+	height: 30rem;
+	background-image: url('images/cherry.png');
+	background-position: center;
+	background-size: cover;
+}
+.service-container3 .image1 .box1{
+	width: 60%;
+}
+.service-container3 .image1 h3{
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 17rem;
+	color: blanchedalmond;
+}
+.service-container3 .image1 p{
+	text-align: center;
+	line-height: 1.2rem;
+	font-size: .8rem;
+	color: grey;
+	width: 80%;
+	padding-top: 2rem;
+	padding-left: 4rem;
+}
+.service-container3 .image2{
+	width: 50%;
+	height: 30rem;
+	background-image: url('images/orange.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.service-container3 .image2 .box2{
+	width: 60%;
+}
+.service-container3 .image2 h3{
+	text-align: center;
+	font-size: 2rem;
+	padding-top: 17rem;
+	color: blanchedalmond;
+}
+.service-container3 .image2 p{
+	line-height: 1.2rem;
+	text-align: center;
+	font-size: .8rem;
+	color: grey;
+	width: 80%;
+	padding-top: 2rem;
+	padding-left: 4rem;
+}
+.project h2{
+	text-transform: uppercase;
+	padding-top: 5rem;
+	letter-spacing: .5rem;
+	color: grey;
+	text-align: center;
+}
+
+
+
+.project-container{
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.project-container .box{
+	width: 17rem;
+	margin-left: 2rem;
+	padding-top: 4rem;
+}
+.project-container .box p{
+	font-size: 0.6rem;
+	color: gray;
+	width: 80%;
+	text-align: center;
+	line-height:1.5rem;
+	padding-top: 2rem;
+}
+.project-container .box img{
+	border-radius: 100%;
+	margin: 0 6rem;
+	height: 3rem;
+	width: 3rem;
+}
+.project-container .box h4{
+	font-size: 1rem;
+	color: black;
+	padding-left: 5rem;
+	padding-top: 2rem;
+}
+.project-container .box .pp{
+	
+	color: grey;
+	font-size: .6rem;
+	padding-top: 0rem;
+	padding-left: 2rem;
+}
+
+
+
+
+
+
+
+.image-container{
+	display: flex;
+	margin: 5rem 1rem 0 1rem;
+}
+.image-container .image1 {
+	background-image: url(images/milk.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 17rem;
+	width: 15rem;
+}
+.image-container .image2	 {
+	background-image: url(images/lemon.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 17rem;
+	width: 15rem;
+}
+.image-container .image3 {
+	background-image: url(images/cone.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 17rem;
+	width: 15rem;
+}
+.image-container .image4 {
+	background-image: url(images/glass.png);
+	background-size: cover;
+	background-position: center;
+	height: 17rem;
+	width: 15rem;
+}
+.contact-container{
+	background: powderblue;
+	height: 20rem;
+
+}
+
+.contact-container h2{
+	text-align: center;
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+	font-family: 'Poller One', cursive;
+	color: grey;
+}
+.contact-container .logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.contact-container .logo p{
+	padding: 2rem 1rem 4rem 1rem;
+	color: grey;
+
+}
+.contact-container .icons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contact-container .icons p{
+	margin: 1rem;
+
+}
+.contact-container .icons .icon1{
+	background-image:url(images/fb.svg);
+	background-size: cover;
+	background-position: center;
+	height: 1rem;
+	width: 1rem	;
+}
+.contact-container .icons .icon2{
+	background-image:url(images/instagram.svg);
+	background-size: cover;
+	background-position: center;
+	height: 1rem;
+	width: 1rem	;
+}
+.contact-container .icons .icon3{
+	background-image:url(images/twitter.svg);
+	background-size: cover;
+	background-position: center;
+	height: 1rem;
+	width: 1rem	;
+}
+
+.contact-container .icons .icon4{
+	background-image:url(images/pi.svg);
+	background-size: cover;
+	background-position: center;
+	height: 1rem;
+	width: 1rem	;
+}
+.credit{
+	background: grey;
+	text-align: center;
+	padding: 2rem;
+}
+.credit span{
+	text-transform: uppercase;
+	color: red;
+	font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+
+
+@media (max-width: 590px)
+{
+	.box-container nav{
+	margin-top: 1rem;
+	background:pink;
+	border-radius: .5rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+ .box-container nav ul{
+	display: grid;
+	list-style: none;
+}
+
+.box-container nav ul a{
+	margin:0 2rem;
+	color: #fff;
+}
+ .box-container nav ul a:hover{
+	border:.1rem solid red;
+	background: powderblue;
+	border-radius: .2rem;
+}	
+.service-container3 .image1 p{
+	text-align: center;
+	line-height: 1.2rem;
+	font-size: .7rem;
+	color: grey;
+	width: 100%;
+	padding-bottom:2rem ;
+	padding-left: 0rem;
+}
+.service-container3 .image1 h3{
+	text-align: center;
+	font-size: 1.5rem;
+	padding-top: 15rem;
+	color: blanchedalmond;
+}
+.service-container3 .image2 p{
+	text-align: center;
+	line-height: 1.2rem;
+	font-size: .7rem;
+	color: grey;
+	width: 100%;
+	padding-bottom:2rem ;
+	padding-left: 0rem;
+}
+.service-container3 .image2 h3{
+	text-align: center;
+	font-size: 1.5rem;
+	padding-top: 15rem;
+	color: blanchedalmond;
+}
+
+}
+@media (max-width: 750px)
+ {
+.service-container .service h3{
+	letter-spacing: .1rem;
+	font-size: 2rem;
+	padding:2rem 2rem 2rem 2rem;
+	
+
+}
+.service-container .service p{	
+	font-size: .9rem;
+	line-height: 1.5rem;
+	color: gray;
+	padding:0 2rem 2rem 2rem;
+
+}
+.service-container .service a{
+	padding-left: 2rem;
+	font-size: 1.5rem;
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+.service-container2 .service h3{
+	letter-spacing: .1rem;
+	font-size: 1.5rem;
+	padding:2rem 2rem 2rem 2rem;
+	
+
+}
+.service-container2 .service p{	
+	font-size: .9rem;
+	line-height: 1.5rem;
+	color: gray;
+	padding:0 2rem 2rem 2rem;
+
+}
+.service-container2 .service a{
+	padding-left: 2rem;
+	font-size: 1.5rem;
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: ;
+}
+.project-container{
+	display:grid;
+	gap: 2rem;
+	align-items: center;
+	justify-content: center;
+	
+}
+.project-container .box{
+	width: 20rem;
+
+	
+}
+.project-container .box p{
+	font-size: 0.6rem;
+	color: gray;
+	width: 80%;
+	text-align: center;
+	line-height:1.5rem;
+	padding-top: 2rem;
+}
+
+.project-container .box h4{
+	font-size: 1rem;
+	color: black;
+	padding-left: 4rem;
+	padding-top: 2rem;
+}
+.project-container .box .pp{
+	
+	color: grey;
+	font-size: .6rem;
+	padding-top: 0rem;
+	padding-right:3rem;
+}
+
+}
